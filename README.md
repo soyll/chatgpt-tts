@@ -1,4 +1,4 @@
-![logo](https://github.com/soyll/chatgpt-tts/blob/main/logo.png)
+![](https://github.com/soyll/chatgpt-tts/blob/main/logo.png)
 # ChatGPT-TTS Integration Library!
  The **ChatGPT-TTS Integration Library** is a powerful open-source tool that seamlessly combines the capabilities of ChatGPT and Text-to-Speech (TTS) technology. With this library, developers can effortlessly **create** conversational AI applications that **not only understand text input** but also **generate natural-sounding spoken responses**. This integration allows for a more immersive and interactive user experience, making it ideal for chatbots, virtual assistants, and other AI-driven applications.
 
