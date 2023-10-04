@@ -1,8 +1,8 @@
 ![](https://github.com/soyll/chatgpt-tts/blob/main/logo.png)
-# ChatGPT-TTS Integration Library!
+# ChatGPT-TTS Integration Library 🎤
  The **ChatGPT-TTS Integration Library** is a powerful open-source tool that seamlessly combines the capabilities of ChatGPT and Text-to-Speech (TTS) technology. With this library, developers can effortlessly **create** conversational AI applications that **not only understand text input** but also **generate natural-sounding spoken responses**. This integration allows for a more immersive and interactive user experience, making it ideal for chatbots, virtual assistants, and other AI-driven applications.
 
-## Table of Contents
+## Table of Contents 📄
 * [Getting Started](#getting-started)
   * [Installation](#installation)
 * [Usage](#usage)
@@ -10,7 +10,7 @@
 * [Integrate with Telegram](#integrate-with-telegram)
 * [Parameters](#parameters)
 
-## Getting Started
+## Getting Started 🔽
 
 ### Installation
 #### Install using pypi
@@ -43,7 +43,7 @@ or
 	```bash
 	pip install -r requirments.txt
 	```
-## Usage
+## Usage 🖥️
 
 ```python
 import chatgpt-tts
@@ -54,10 +54,10 @@ chat_tts = ChatGpt_TTS(speaker, model_id, language, folder_to_save)
 # use ChatGPT-TTS
 chat_tts.create_tts(text, prompt, user_id)
 ```
-## Models
+## Models 👾
 #### All *support* modeles check in [Silero Models](https://github.com/snakers4/silero-models#models-and-speakers)
 
-## Integrate with Telegram
+## Integrate with Telegram ✈️
 ```python
 # code by bruhmnm
 import telebot  
@@ -81,7 +81,7 @@ def integrate(message):
   
 bot.polling(none_stop=True)
 ```
-## Parameters
+## Parameters 📋
 |   name	|								description										      |   example  |
 |----------|----------------------------------------------------------------|-
 | speaker | A trained vocal pattern with gender, accent, and tone |en_0, en_1|
